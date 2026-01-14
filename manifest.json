@@ -1,0 +1,15 @@
+{
+    "manifest_version": 3,
+    "name": "Verify AI",
+    "version": "1.0",
+    "description": "Your extension description",
+    "permissions": [
+        "activeTab",
+        "tabs",
+        "http://*/",
+        "https://*/"
+    ],
+    "action": {
+        "default_popup": "window.html"
+    }
+}
